@@ -174,12 +174,12 @@ turtle.listen()
 # ----------- End of Functions ---------------
 
 # -------------- Start Game ------------------
+if __name__ == "__main__":
+    setup_screen()  # Draw screen
+    draw_lines()  # Draw game borders
+    cpu_turn()  # Request the computer to start
 
-setup_screen()  # Draw screen
-draw_lines()  # Draw game borders
-cpu_turn()  # Request the computer to start
-
-turtle.mainloop()  # Main loop of the game
+    turtle.mainloop()  # Main loop of the game
 
 # ------------- End of Game ------------------
 
