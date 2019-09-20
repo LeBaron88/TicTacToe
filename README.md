@@ -1,5 +1,5 @@
 # TicTacToe
-a simple Tic Tac Toe game written in python including the turtle module
+a simple Tic Tac Toe game written in python using the turtle module
 
 To run the game you need to download all the files on your local computer and run "Main.py".
 
